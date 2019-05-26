@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Carousel Slider</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="carousel">
+    	<button class="carousel__button carousel__button--left is-hidden">
+    		<img src="img/arrow-left.png">
+    	</button>
+
+    	<div class="carousel__track-container">
+    		<ul class="carousel__track">
+    			<li class="carousel__slide current-slide">
+    				<img class="carousel__images" src="img/banner-1.png" alt="banner">
+    			</li>
+    			<li class="carousel__slide">
+    				<img class="carousel__images" src="img/banner-2.png" alt="banner">
+    			</li>
+    			<li class="carousel__slide">
+    				<img class="carousel__images" src="img/banner-3.png" alt="banner">
+    			</li>
+    		</ul>
+    	</div>
+
+    	<button class="carousel__button carousel__button--right">
+    		<img src="img/arrow-right.png">
+    	</button>
+
+    	<div class="carousel__nav">
+    		<button class="carousel__indicator current-slide"></button>
+    		<button class="carousel__indicator"></button>
+    		<button class="carousel__indicator"></button>
+    	</div>
+    </div>
+
+    <script type="text/javascript" src="js/carousel.js"></script>
+
+</body>
+</html>
